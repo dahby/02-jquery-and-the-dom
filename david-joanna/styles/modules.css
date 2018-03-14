@@ -20,7 +20,9 @@ li a {
   font-size: 4vw;
   text-decoration: none;
 }
-
+.template{
+  display:none;
+}
 .main-nav:hover ul li {
   visibility: visible;
   display: block;
