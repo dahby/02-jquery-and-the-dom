@@ -2,7 +2,7 @@
 
 // COMMENT: How is this data utilized within our blog app? What is the structure of this data (your response should include the terms "object", "array", and "key/value pairs")?
 
-// The rawData array holds the future article objects and constructs the articles array lets us store key/value pairs that we will later append to our HTML page.
+// The rawData array holds the article objects, which contain key-value paired properties such as title, category, author, etc. We will later be passing these objects through the constructor function in our article.js file to be displayed in the blog page.
 
 let rawData = [
   {

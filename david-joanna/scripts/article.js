@@ -25,7 +25,7 @@ function Article (rawDataObj) {
 Article.prototype.toHtml = function() {
   console.log('anything');
   // COMMENT: What is the benefit of cloning the article? (see the jQuery docs)
-  // Cloning the article allows us dynamically update the template and saves us from copying and pasting the properties into the HTML.
+  // Cloning the article allows us to make a deep copy of the set of matched elements from the article template that we will be able to utilize to format and display the results of the article constructor function above.
 
   let $newArticle = $('article.template').clone()
 
